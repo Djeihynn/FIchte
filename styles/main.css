@@ -1,0 +1,57 @@
+:root {
+    --text-color: whitesmoke;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+span {
+    font-family: Impact;
+    font-size: 1.9rem;
+    font-style: italic;
+}
+
+body {
+    top: 10px;
+    margin: 20px;
+}
+
+.logo {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+
+    padding: 45px 20px;
+    display: flex;
+    background-color: lightslategray;
+    border-radius: 50px;
+}
+
+.logo p {
+    padding-left: 20px;
+    font-size: 1.6rem;
+    font-family: Georgia;
+    color: var(--text-color);
+}
+
+.logo img {
+    border-radius: 160px;
+}
+
+.user-card {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+
+    padding: 45px 20px;
+    display: flex;
+    background-color: lightslategray;
+    border-radius: 50px;
+}
+
+.user-card img {
+    width: 15%;
+    border-radius: 160px;
+}
+
+.user-card p {
+    padding-left: 20px;
+    font-size: 1.6rem;
+    font-family: Georgia;
+    color: var(--text-color);
+}
